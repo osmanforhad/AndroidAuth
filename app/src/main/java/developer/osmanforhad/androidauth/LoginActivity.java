@@ -63,7 +63,10 @@ public class LoginActivity extends AppCompatActivity {
 
     //Method for Redirect to Login Screen__//
     private void sendLogin() {
-        Toast.makeText(this, "Sending", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Sending", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(LoginActivity.this, UserActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     //__Method for Fail Alert__//
