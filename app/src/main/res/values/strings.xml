@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android Auth using LARAVEL API</string>
+    <string name="api_server">http://localhost:8000/api</string>
 </resources>
